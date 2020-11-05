@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image/nami.jpg);
+  background-size: cover;
+  color: #5f5d60;
+  text-align: center;
+  height:700px;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 75px;
+  letter-spacing: 5px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+header {
+  height: 80px;
+  width: 100%;
+  background-color:white;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  width: 250px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+}
+.header-right a {
+  padding: 0 5px;
+  display: block;
+  float: left;
+  margin-top:15px;
+}
+.lesson-wrapper {
+  height: 850px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 83%;
+  width: 100%;
+  color: #5f5d60;
+}
+.lesson-icon p:hover {
+  background-color: white;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+.heading h3 {
+  font-weight: normal;
+}
+.field-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+}
+footer img {
+  width: 125px;
+}
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+footer {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.clear {
+  clear: left;
+}
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .lesson-wrapper {
+    height: 1100px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+@media all and (max-width: 750px) {
+  .top-wrapper h1 {
+    font-size: 65px;
+  }
+  .lesson-wrapper {
+    height: 1200px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  .top-wrapper h1 {
+    font-size: 45px;
+  }
+  .top-wrapper p {
+    font-size: 35px;
+  }
+  .lesson {
+    width: 100%;
+  }
+  .lesson-wrapper {
+    height: 1900px;
+  }
+}
